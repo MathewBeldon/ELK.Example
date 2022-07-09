@@ -10,7 +10,7 @@
         "dependencies": {
           "Serilog": "2.11.0",
           "Serilog.AspNetCore": "5.0.0",
-          "Serilog.Sinks.Console": "4.0.1"
+          "Serilog.Sinks.Http": "8.0.0"
         },
         "runtime": {
           "ELK.Example.API.dll": {}
@@ -196,6 +196,18 @@
           }
         }
       },
+      "Serilog.Sinks.Http/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
+          "Serilog.Sinks.File": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
       "System.Text.Json/4.6.0": {}
     }
   },
@@ -358,6 +370,13 @@
       "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
       "path": "serilog.sinks.file/5.0.0",
       "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Http/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eHyl2/93Roymf2eudPl/6Eeu2GQ93Ucy4GM1UPF0jyd7CIW8r+Bk5ohdbjjyjB9TQSpP2ovOuj6ltf9DjoWHtg==",
+      "path": "serilog.sinks.http/8.0.0",
+      "hashPath": "serilog.sinks.http.8.0.0.nupkg.sha512"
     },
     "System.Text.Json/4.6.0": {
       "type": "package",

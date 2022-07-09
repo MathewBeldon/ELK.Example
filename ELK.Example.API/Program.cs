@@ -8,7 +8,9 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 builder.Host
     .UseSerilog((ctx, lc) => lc
-    .WriteTo.Console());
+        .WriteTo.Http(requestUri: "http://localhost:5000", queueLimitBytes: null)
+        .Enrich.FromLogContext()
+    );
 
 var app = builder.Build();
 app.MapGet("/", (Serilog.ILogger logger) =>
@@ -16,4 +18,4 @@ app.MapGet("/", (Serilog.ILogger logger) =>
     logger.Error("this is an error");
     return "logged an error";
 });
-app.Run("http://localhost:5000");
+app.Run("http://localhost:3000");

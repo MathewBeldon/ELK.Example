@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Yh7gUyRKRsD2iI8IzB7VpNSOKOdy48A6qzTILwKFSphNplVqMGn8U3f00cBz0kL1T2F0nbXxbWnzbLbDVIhrgg==",
+  "dgSpecHash": "W2MvyUMFQALgeSHHVUhc7Clnzlz1N5d0jRLLurhN9wXA1v/Fhd07XmWN9pVpi+NScmwHuR9stk9LR6L3tsA+ew==",
   "success": true,
   "projectFilePath": "C:\\src\\ELK.Example\\ELK.Example.API\\ELK.Example.API.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.http\\8.0.0\\serilog.sinks.http.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
   ],
   "logs": []
