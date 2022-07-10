@@ -29,3 +29,5 @@ C:\src\ELK.Example\ELK.Example.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\src\ELK.Example\ELK.Example.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\src\ELK.Example\ELK.Example.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\src\ELK.Example\ELK.Example.API\bin\Debug\net6.0\Serilog.Sinks.Http.dll
+C:\src\ELK.Example\ELK.Example.API\bin\Debug\net6.0\Elastic.CommonSchema.dll
+C:\src\ELK.Example\ELK.Example.API\bin\Debug\net6.0\Elastic.CommonSchema.Serilog.dll

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "W2MvyUMFQALgeSHHVUhc7Clnzlz1N5d0jRLLurhN9wXA1v/Fhd07XmWN9pVpi+NScmwHuR9stk9LR6L3tsA+ew==",
+  "dgSpecHash": "2fOkgCCvprnipX05+o+yqALyjv9hqp00Yi1nsjasS9PrX8LgnqVqPUlE601MyzgNxSIRggec0U83LANO1Lo8zA==",
   "success": true,
   "projectFilePath": "C:\\src\\ELK.Example\\ELK.Example.API\\ELK.Example.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\elastic.commonschema\\1.5.3\\elastic.commonschema.1.5.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\elastic.commonschema.serilog\\1.5.3\\elastic.commonschema.serilog.1.5.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.0\\microsoft.aspnetcore.http.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.0\\microsoft.aspnetcore.http.features.2.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.0.0\\microsoft.extensions.configuration.binder.2.0.0.nupkg.sha512",
@@ -27,7 +31,8 @@
     "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.sinks.http\\8.0.0\\serilog.sinks.http.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.7.0\\system.text.json.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

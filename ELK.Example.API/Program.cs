@@ -1,14 +1,10 @@
-﻿
-// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
-//https://www.infoworld.com/article/3662294/use-logging-and-di-in-minimal-apis-in-aspnet-core-6.html
-
+﻿using Elastic.CommonSchema.Serilog;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host
     .UseSerilog((ctx, lc) => lc
-        .WriteTo.Http(requestUri: "http://localhost:5000", queueLimitBytes: null)
+        .WriteTo.Http(textFormatter: new EcsTextFormatter(), requestUri: "http://localhost:5000", queueLimitBytes: null)
         .Enrich.FromLogContext()
     );
 
