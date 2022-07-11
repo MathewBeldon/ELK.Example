@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2fOkgCCvprnipX05+o+yqALyjv9hqp00Yi1nsjasS9PrX8LgnqVqPUlE601MyzgNxSIRggec0U83LANO1Lo8zA==",
+  "dgSpecHash": "Rz5x6Pf5AoykfpoHmZLwUoCnk3AngL7odkEyLMVDC+LLT+p6Nwp17OdRPzTfWbn+dt9JL/Iv3tHe1KOPTgntyQ==",
   "success": true,
   "projectFilePath": "C:\\src\\ELK.Example\\ELK.Example.API\\ELK.Example.API.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.0.0\\microsoft.extensions.options.configurationextensions.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.aspnetcore\\5.0.0\\serilog.aspnetcore.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.extensions.hosting\\4.2.0\\serilog.extensions.hosting.4.2.0.nupkg.sha512",

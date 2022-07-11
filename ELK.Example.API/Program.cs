@@ -3,15 +3,15 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host
-    .UseSerilog((ctx, lc) => lc
+    .UseSerilog(( _, config) => config
         .WriteTo.Http(textFormatter: new EcsTextFormatter(), requestUri: "http://localhost:5000", queueLimitBytes: null)
         .Enrich.FromLogContext()
     );
 
 var app = builder.Build();
-app.MapGet("/", (Serilog.ILogger logger) =>
+app.MapGet("/{id:int}", (Serilog.ILogger logger, int id) =>
 {
-    logger.Error("this is an error");
-    return "logged an error";
+    logger.Error("this is an error {id}", id);
+    return Results.Ok($"logged an error {id}"); 
 });
 app.Run("http://localhost:3000");
