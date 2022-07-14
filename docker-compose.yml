@@ -83,6 +83,19 @@ services:
       - elk
     depends_on:
       - elasticsearch
+  api:
+    build:
+      context: ELK.Example.API
+      dockerfile: Dockerfile
+    networks:
+      - elk
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80
+    depends_on:
+        - logstash
+    ports:
+      - "3000:80" 
 
 networks:
   elk:
