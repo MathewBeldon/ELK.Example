@@ -83,6 +83,7 @@ services:
       - elk
     depends_on:
       - elasticsearch
+      
   api:
     build:
       context: ELK.Example.API
@@ -92,8 +93,9 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__Logstash=http://logstash:8080
     depends_on:
-        - logstash
+      - logstash
     ports:
       - "3000:80" 
 
