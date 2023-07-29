@@ -86,7 +86,7 @@ services:
       
   api:
     build:
-      context: ELK.Example.API
+      context: ELK.Example.CSharp.API
       dockerfile: Dockerfile
     networks:
       - elk

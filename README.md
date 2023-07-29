@@ -13,3 +13,4 @@ kibana address:
 with username: `elastic` password: `changeme`
 
 
+Kibana setup log search
